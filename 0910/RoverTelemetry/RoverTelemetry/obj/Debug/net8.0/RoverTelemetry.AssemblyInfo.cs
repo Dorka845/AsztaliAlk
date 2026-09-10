@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoverTelemetry")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+016e5b6264056354917f6e9901f22480ab718f4e")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoverTelemetry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoverTelemetry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

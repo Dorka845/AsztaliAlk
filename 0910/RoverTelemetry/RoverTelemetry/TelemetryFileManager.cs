@@ -30,7 +30,21 @@ namespace RoverTelemetry
 
         public void WriteSuccessfulRecords(string filePath, List<TelemetryRecord> records)
         {
-            
+            List<string> lines = new List<string>();
+            lines.Add("Azonosito;RoverNeve;MeresIdeje;MegtettUt_Meter;Sikeres");
+
+            foreach (TelemetryRecord record in records)
+            {
+                string sikeres = record.IsSuccessful ? "Igaz" : "Hamis";
+                string sor = record.Id + ";" +
+                             record.RoverName + ";" +
+                             record.Date.ToString("yyyy.MM.dd") + ";" +
+                             record.Distance + ";" +
+                             sikeres;
+                lines.Add(sor);
+            }
+
+            File.WriteAllLines(filePath, lines);
         }
     }
 }

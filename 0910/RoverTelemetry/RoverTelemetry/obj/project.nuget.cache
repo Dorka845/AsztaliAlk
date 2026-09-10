@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "tF/Oao0+kyVGoaFv92Oh9fgZiZv6XL2cMLS7i2hdgT1MJmPsl5DtFQa/KwWhstrrzgX89v60gSJSCErASbKn9Q==",
+  "dgSpecHash": "+kENgA0gIXk=",
   "success": true,
-  "projectFilePath": "H:\\Asztali\\0910\\RoverTelemetry\\RoverTelemetry\\RoverTelemetry.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\AsztaliAlk\\0910\\RoverTelemetry\\RoverTelemetry\\RoverTelemetry.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Barracuda\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.24\\microsoft.windowsdesktop.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\Barracuda\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.24\\microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\Barracuda\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.24\\microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\Barracuda\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.24\\microsoft.netcore.app.host.win-x64.8.0.24.nupkg.sha512"
+  ],
   "logs": []
 }
