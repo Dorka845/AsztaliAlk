@@ -1,0 +1,14 @@
+H:\Asztali\0910\RoverTelemetry\RoverTelemetry\bin\Debug\net8.0\RoverTelemetry.exe
+H:\Asztali\0910\RoverTelemetry\RoverTelemetry\bin\Debug\net8.0\RoverTelemetry.deps.json
+H:\Asztali\0910\RoverTelemetry\RoverTelemetry\bin\Debug\net8.0\RoverTelemetry.runtimeconfig.json
+H:\Asztali\0910\RoverTelemetry\RoverTelemetry\bin\Debug\net8.0\RoverTelemetry.dll
+H:\Asztali\0910\RoverTelemetry\RoverTelemetry\bin\Debug\net8.0\RoverTelemetry.pdb
+H:\Asztali\0910\RoverTelemetry\RoverTelemetry\obj\Debug\net8.0\RoverTelemetry.GeneratedMSBuildEditorConfig.editorconfig
+H:\Asztali\0910\RoverTelemetry\RoverTelemetry\obj\Debug\net8.0\RoverTelemetry.AssemblyInfoInputs.cache
+H:\Asztali\0910\RoverTelemetry\RoverTelemetry\obj\Debug\net8.0\RoverTelemetry.AssemblyInfo.cs
+H:\Asztali\0910\RoverTelemetry\RoverTelemetry\obj\Debug\net8.0\RoverTelemetry.csproj.CoreCompileInputs.cache
+H:\Asztali\0910\RoverTelemetry\RoverTelemetry\obj\Debug\net8.0\RoverTelemetry.dll
+H:\Asztali\0910\RoverTelemetry\RoverTelemetry\obj\Debug\net8.0\refint\RoverTelemetry.dll
+H:\Asztali\0910\RoverTelemetry\RoverTelemetry\obj\Debug\net8.0\RoverTelemetry.pdb
+H:\Asztali\0910\RoverTelemetry\RoverTelemetry\obj\Debug\net8.0\RoverTelemetry.genruntimeconfig.cache
+H:\Asztali\0910\RoverTelemetry\RoverTelemetry\obj\Debug\net8.0\ref\RoverTelemetry.dll
