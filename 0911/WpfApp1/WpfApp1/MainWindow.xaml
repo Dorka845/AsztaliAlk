@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Mars Rover Control Panel" Height="450px" Width="600px">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0">Tervezett távolság (méter):</TextBlock>
+        <TextBlock Grid.Row="0" VerticalAlignment="Center">Fogyasztási ráta:</TextBlock>
+        <TextBox x:Name="tavolsag" Grid.Column="1" VerticalAlignment="Top"></TextBox>
+        <TextBox x:Name="fogyasztas" Grid.Column="1" VerticalAlignment="Center"></TextBox>
+        <Button Width="60" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Left">Számítás</Button>
+
+        <Image Source="./rover.jpg" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="1" Grid.RowSpan="2" Stretch="Uniform"></Image>
+
+        <Ellipse x:Name="kapcsolodasJelzo" Fill="Crimson" Width="50" Height="50" Grid.Column="3"></Ellipse>
+        <Button x:Name="kapcsolodasGomb" Width="100" Grid.Column="3" Grid.Row="1" Height="20" VerticalAlignment="Top" Click="TurnGreenOnClick">Kapcsolódás</Button>
+    </Grid>
+</Window>
