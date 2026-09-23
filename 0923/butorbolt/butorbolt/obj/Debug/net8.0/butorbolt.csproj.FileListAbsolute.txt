@@ -1,0 +1,15 @@
+H:\AsztaliAlk\0923\butorbolt\butorbolt\bin\Debug\net8.0\butorbolt.exe
+H:\AsztaliAlk\0923\butorbolt\butorbolt\bin\Debug\net8.0\butorbolt.deps.json
+H:\AsztaliAlk\0923\butorbolt\butorbolt\bin\Debug\net8.0\butorbolt.runtimeconfig.json
+H:\AsztaliAlk\0923\butorbolt\butorbolt\bin\Debug\net8.0\butorbolt.dll
+H:\AsztaliAlk\0923\butorbolt\butorbolt\bin\Debug\net8.0\butorbolt.pdb
+H:\AsztaliAlk\0923\butorbolt\butorbolt\obj\Debug\net8.0\butorbolt.GeneratedMSBuildEditorConfig.editorconfig
+H:\AsztaliAlk\0923\butorbolt\butorbolt\obj\Debug\net8.0\butorbolt.AssemblyInfoInputs.cache
+H:\AsztaliAlk\0923\butorbolt\butorbolt\obj\Debug\net8.0\butorbolt.AssemblyInfo.cs
+H:\AsztaliAlk\0923\butorbolt\butorbolt\obj\Debug\net8.0\butorbolt.csproj.CoreCompileInputs.cache
+H:\AsztaliAlk\0923\butorbolt\butorbolt\obj\Debug\net8.0\butorbolt.sourcelink.json
+H:\AsztaliAlk\0923\butorbolt\butorbolt\obj\Debug\net8.0\butorbolt.dll
+H:\AsztaliAlk\0923\butorbolt\butorbolt\obj\Debug\net8.0\refint\butorbolt.dll
+H:\AsztaliAlk\0923\butorbolt\butorbolt\obj\Debug\net8.0\butorbolt.pdb
+H:\AsztaliAlk\0923\butorbolt\butorbolt\obj\Debug\net8.0\butorbolt.genruntimeconfig.cache
+H:\AsztaliAlk\0923\butorbolt\butorbolt\obj\Debug\net8.0\ref\butorbolt.dll

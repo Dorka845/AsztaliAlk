@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\AsztaliAlk\\0923\\butorbolt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67B158C4-BFF4-4C55-B340-371096125579}|butorbolt\\butorbolt.csproj|h:\\asztalialk\\0923\\butorbolt\\butorbolt\\furniture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B158C4-BFF4-4C55-B340-371096125579}|butorbolt\\butorbolt.csproj|solutionrelative:butorbolt\\furniture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B158C4-BFF4-4C55-B340-371096125579}|butorbolt\\butorbolt.csproj|h:\\asztalialk\\0923\\butorbolt\\butorbolt\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B158C4-BFF4-4C55-B340-371096125579}|butorbolt\\butorbolt.csproj|solutionrelative:butorbolt\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B158C4-BFF4-4C55-B340-371096125579}|butorbolt\\butorbolt.csproj|h:\\asztalialk\\0923\\butorbolt\\butorbolt\\bed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B158C4-BFF4-4C55-B340-371096125579}|butorbolt\\butorbolt.csproj|solutionrelative:butorbolt\\bed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B158C4-BFF4-4C55-B340-371096125579}|butorbolt\\butorbolt.csproj|h:\\asztalialk\\0923\\butorbolt\\butorbolt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B158C4-BFF4-4C55-B340-371096125579}|butorbolt\\butorbolt.csproj|solutionrelative:butorbolt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B158C4-BFF4-4C55-B340-371096125579}|butorbolt\\butorbolt.csproj|h:\\asztalialk\\0923\\butorbolt\\butorbolt\\chair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B158C4-BFF4-4C55-B340-371096125579}|butorbolt\\butorbolt.csproj|solutionrelative:butorbolt\\chair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Chair.cs",
+              "DocumentMoniker": "H:\\AsztaliAlk\\0923\\butorbolt\\butorbolt\\Chair.cs",
+              "RelativeDocumentMoniker": "butorbolt\\Chair.cs",
+              "ToolTip": "H:\\AsztaliAlk\\0923\\butorbolt\\butorbolt\\Chair.cs",
+              "RelativeToolTip": "butorbolt\\Chair.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T08:49:52.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bed.cs",
+              "DocumentMoniker": "H:\\AsztaliAlk\\0923\\butorbolt\\butorbolt\\Bed.cs",
+              "RelativeDocumentMoniker": "butorbolt\\Bed.cs",
+              "ToolTip": "H:\\AsztaliAlk\\0923\\butorbolt\\butorbolt\\Bed.cs",
+              "RelativeToolTip": "butorbolt\\Bed.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T08:47:05.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Table.cs",
+              "DocumentMoniker": "H:\\AsztaliAlk\\0923\\butorbolt\\butorbolt\\Table.cs",
+              "RelativeDocumentMoniker": "butorbolt\\Table.cs",
+              "ToolTip": "H:\\AsztaliAlk\\0923\\butorbolt\\butorbolt\\Table.cs",
+              "RelativeToolTip": "butorbolt\\Table.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T08:43:59.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Furniture.cs",
+              "DocumentMoniker": "H:\\AsztaliAlk\\0923\\butorbolt\\butorbolt\\Furniture.cs",
+              "RelativeDocumentMoniker": "butorbolt\\Furniture.cs",
+              "ToolTip": "H:\\AsztaliAlk\\0923\\butorbolt\\butorbolt\\Furniture.cs",
+              "RelativeToolTip": "butorbolt\\Furniture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T08:39:32.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\AsztaliAlk\\0923\\butorbolt\\butorbolt\\Program.cs",
+              "RelativeDocumentMoniker": "butorbolt\\Program.cs",
+              "ToolTip": "H:\\AsztaliAlk\\0923\\butorbolt\\butorbolt\\Program.cs",
+              "RelativeToolTip": "butorbolt\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T08:38:15.389Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

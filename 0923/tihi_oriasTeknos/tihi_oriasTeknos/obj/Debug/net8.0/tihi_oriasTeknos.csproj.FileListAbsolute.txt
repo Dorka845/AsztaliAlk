@@ -1,0 +1,15 @@
+H:\AsztaliAlk\0923\tihi_oriasTeknos\tihi_oriasTeknos\bin\Debug\net8.0\tihi_oriasTeknos.exe
+H:\AsztaliAlk\0923\tihi_oriasTeknos\tihi_oriasTeknos\bin\Debug\net8.0\tihi_oriasTeknos.deps.json
+H:\AsztaliAlk\0923\tihi_oriasTeknos\tihi_oriasTeknos\bin\Debug\net8.0\tihi_oriasTeknos.runtimeconfig.json
+H:\AsztaliAlk\0923\tihi_oriasTeknos\tihi_oriasTeknos\bin\Debug\net8.0\tihi_oriasTeknos.dll
+H:\AsztaliAlk\0923\tihi_oriasTeknos\tihi_oriasTeknos\bin\Debug\net8.0\tihi_oriasTeknos.pdb
+H:\AsztaliAlk\0923\tihi_oriasTeknos\tihi_oriasTeknos\obj\Debug\net8.0\tihi_oriasTeknos.GeneratedMSBuildEditorConfig.editorconfig
+H:\AsztaliAlk\0923\tihi_oriasTeknos\tihi_oriasTeknos\obj\Debug\net8.0\tihi_oriasTeknos.AssemblyInfoInputs.cache
+H:\AsztaliAlk\0923\tihi_oriasTeknos\tihi_oriasTeknos\obj\Debug\net8.0\tihi_oriasTeknos.AssemblyInfo.cs
+H:\AsztaliAlk\0923\tihi_oriasTeknos\tihi_oriasTeknos\obj\Debug\net8.0\tihi_oriasTeknos.csproj.CoreCompileInputs.cache
+H:\AsztaliAlk\0923\tihi_oriasTeknos\tihi_oriasTeknos\obj\Debug\net8.0\tihi_oriasTeknos.sourcelink.json
+H:\AsztaliAlk\0923\tihi_oriasTeknos\tihi_oriasTeknos\obj\Debug\net8.0\tihi_oriasTeknos.dll
+H:\AsztaliAlk\0923\tihi_oriasTeknos\tihi_oriasTeknos\obj\Debug\net8.0\refint\tihi_oriasTeknos.dll
+H:\AsztaliAlk\0923\tihi_oriasTeknos\tihi_oriasTeknos\obj\Debug\net8.0\tihi_oriasTeknos.pdb
+H:\AsztaliAlk\0923\tihi_oriasTeknos\tihi_oriasTeknos\obj\Debug\net8.0\tihi_oriasTeknos.genruntimeconfig.cache
+H:\AsztaliAlk\0923\tihi_oriasTeknos\tihi_oriasTeknos\obj\Debug\net8.0\ref\tihi_oriasTeknos.dll

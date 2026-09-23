@@ -1,0 +1,15 @@
+H:\AsztaliAlk\0923\vadasztarsasag\vadasztarsasag\obj\Debug\net8.0\vadasztarsasag.GeneratedMSBuildEditorConfig.editorconfig
+H:\AsztaliAlk\0923\vadasztarsasag\vadasztarsasag\obj\Debug\net8.0\vadasztarsasag.AssemblyInfoInputs.cache
+H:\AsztaliAlk\0923\vadasztarsasag\vadasztarsasag\obj\Debug\net8.0\vadasztarsasag.AssemblyInfo.cs
+H:\AsztaliAlk\0923\vadasztarsasag\vadasztarsasag\obj\Debug\net8.0\vadasztarsasag.csproj.CoreCompileInputs.cache
+H:\AsztaliAlk\0923\vadasztarsasag\vadasztarsasag\obj\Debug\net8.0\vadasztarsasag.sourcelink.json
+H:\AsztaliAlk\0923\vadasztarsasag\vadasztarsasag\bin\Debug\net8.0\vadasztarsasag.exe
+H:\AsztaliAlk\0923\vadasztarsasag\vadasztarsasag\bin\Debug\net8.0\vadasztarsasag.deps.json
+H:\AsztaliAlk\0923\vadasztarsasag\vadasztarsasag\bin\Debug\net8.0\vadasztarsasag.runtimeconfig.json
+H:\AsztaliAlk\0923\vadasztarsasag\vadasztarsasag\bin\Debug\net8.0\vadasztarsasag.dll
+H:\AsztaliAlk\0923\vadasztarsasag\vadasztarsasag\bin\Debug\net8.0\vadasztarsasag.pdb
+H:\AsztaliAlk\0923\vadasztarsasag\vadasztarsasag\obj\Debug\net8.0\vadasztarsasag.dll
+H:\AsztaliAlk\0923\vadasztarsasag\vadasztarsasag\obj\Debug\net8.0\refint\vadasztarsasag.dll
+H:\AsztaliAlk\0923\vadasztarsasag\vadasztarsasag\obj\Debug\net8.0\vadasztarsasag.pdb
+H:\AsztaliAlk\0923\vadasztarsasag\vadasztarsasag\obj\Debug\net8.0\vadasztarsasag.genruntimeconfig.cache
+H:\AsztaliAlk\0923\vadasztarsasag\vadasztarsasag\obj\Debug\net8.0\ref\vadasztarsasag.dll

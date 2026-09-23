@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "tihi_oriasTeknos/1.0.0": {
+        "runtime": {
+          "tihi_oriasTeknos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tihi_oriasTeknos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

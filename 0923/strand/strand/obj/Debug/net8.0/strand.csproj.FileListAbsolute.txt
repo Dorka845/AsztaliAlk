@@ -1,0 +1,15 @@
+H:\AsztaliAlk\0923\strand\strand\bin\Debug\net8.0\strand.exe
+H:\AsztaliAlk\0923\strand\strand\bin\Debug\net8.0\strand.deps.json
+H:\AsztaliAlk\0923\strand\strand\bin\Debug\net8.0\strand.runtimeconfig.json
+H:\AsztaliAlk\0923\strand\strand\bin\Debug\net8.0\strand.dll
+H:\AsztaliAlk\0923\strand\strand\bin\Debug\net8.0\strand.pdb
+H:\AsztaliAlk\0923\strand\strand\obj\Debug\net8.0\strand.GeneratedMSBuildEditorConfig.editorconfig
+H:\AsztaliAlk\0923\strand\strand\obj\Debug\net8.0\strand.AssemblyInfoInputs.cache
+H:\AsztaliAlk\0923\strand\strand\obj\Debug\net8.0\strand.AssemblyInfo.cs
+H:\AsztaliAlk\0923\strand\strand\obj\Debug\net8.0\strand.csproj.CoreCompileInputs.cache
+H:\AsztaliAlk\0923\strand\strand\obj\Debug\net8.0\strand.sourcelink.json
+H:\AsztaliAlk\0923\strand\strand\obj\Debug\net8.0\strand.dll
+H:\AsztaliAlk\0923\strand\strand\obj\Debug\net8.0\refint\strand.dll
+H:\AsztaliAlk\0923\strand\strand\obj\Debug\net8.0\strand.pdb
+H:\AsztaliAlk\0923\strand\strand\obj\Debug\net8.0\strand.genruntimeconfig.cache
+H:\AsztaliAlk\0923\strand\strand\obj\Debug\net8.0\ref\strand.dll
