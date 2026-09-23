@@ -24,7 +24,7 @@ namespace svg
 
             for(int i = 0; i < shapes.Length; i++)
             {
-                sw.WriteLine("\t" + shapes[i].ToString());
+                sw.WriteLine("\t" + $"{shapes[i].ToString()}");
             }
 
             sw.WriteLine($"</svg>");
