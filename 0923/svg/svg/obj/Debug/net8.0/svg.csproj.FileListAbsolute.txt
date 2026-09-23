@@ -1,0 +1,15 @@
+H:\AsztaliAlk\0923\svg\svg\bin\Debug\net8.0\svg.exe
+H:\AsztaliAlk\0923\svg\svg\bin\Debug\net8.0\svg.deps.json
+H:\AsztaliAlk\0923\svg\svg\bin\Debug\net8.0\svg.runtimeconfig.json
+H:\AsztaliAlk\0923\svg\svg\bin\Debug\net8.0\svg.dll
+H:\AsztaliAlk\0923\svg\svg\bin\Debug\net8.0\svg.pdb
+H:\AsztaliAlk\0923\svg\svg\obj\Debug\net8.0\svg.GeneratedMSBuildEditorConfig.editorconfig
+H:\AsztaliAlk\0923\svg\svg\obj\Debug\net8.0\svg.AssemblyInfoInputs.cache
+H:\AsztaliAlk\0923\svg\svg\obj\Debug\net8.0\svg.AssemblyInfo.cs
+H:\AsztaliAlk\0923\svg\svg\obj\Debug\net8.0\svg.csproj.CoreCompileInputs.cache
+H:\AsztaliAlk\0923\svg\svg\obj\Debug\net8.0\svg.sourcelink.json
+H:\AsztaliAlk\0923\svg\svg\obj\Debug\net8.0\svg.dll
+H:\AsztaliAlk\0923\svg\svg\obj\Debug\net8.0\refint\svg.dll
+H:\AsztaliAlk\0923\svg\svg\obj\Debug\net8.0\svg.pdb
+H:\AsztaliAlk\0923\svg\svg\obj\Debug\net8.0\svg.genruntimeconfig.cache
+H:\AsztaliAlk\0923\svg\svg\obj\Debug\net8.0\ref\svg.dll

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\AsztaliAlk\\0923\\svg\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1244C32-A4A4-4757-A863-CFF9532EE59A}|svg\\svg.csproj|h:\\asztalialk\\0923\\svg\\svg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1244C32-A4A4-4757-A863-CFF9532EE59A}|svg\\svg.csproj|solutionrelative:svg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\AsztaliAlk\\0923\\svg\\svg\\Program.cs",
+              "RelativeDocumentMoniker": "svg\\Program.cs",
+              "ToolTip": "H:\\AsztaliAlk\\0923\\svg\\svg\\Program.cs",
+              "RelativeToolTip": "svg\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAlwBoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T10:26:49.658Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
