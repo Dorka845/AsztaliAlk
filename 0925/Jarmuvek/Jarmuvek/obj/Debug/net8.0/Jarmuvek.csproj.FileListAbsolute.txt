@@ -1,0 +1,15 @@
+H:\AsztaliAlk\0925\Jarmuvek\Jarmuvek\bin\Debug\net8.0\Jarmuvek.exe
+H:\AsztaliAlk\0925\Jarmuvek\Jarmuvek\bin\Debug\net8.0\Jarmuvek.deps.json
+H:\AsztaliAlk\0925\Jarmuvek\Jarmuvek\bin\Debug\net8.0\Jarmuvek.runtimeconfig.json
+H:\AsztaliAlk\0925\Jarmuvek\Jarmuvek\bin\Debug\net8.0\Jarmuvek.dll
+H:\AsztaliAlk\0925\Jarmuvek\Jarmuvek\bin\Debug\net8.0\Jarmuvek.pdb
+H:\AsztaliAlk\0925\Jarmuvek\Jarmuvek\obj\Debug\net8.0\Jarmuvek.GeneratedMSBuildEditorConfig.editorconfig
+H:\AsztaliAlk\0925\Jarmuvek\Jarmuvek\obj\Debug\net8.0\Jarmuvek.AssemblyInfoInputs.cache
+H:\AsztaliAlk\0925\Jarmuvek\Jarmuvek\obj\Debug\net8.0\Jarmuvek.AssemblyInfo.cs
+H:\AsztaliAlk\0925\Jarmuvek\Jarmuvek\obj\Debug\net8.0\Jarmuvek.csproj.CoreCompileInputs.cache
+H:\AsztaliAlk\0925\Jarmuvek\Jarmuvek\obj\Debug\net8.0\Jarmuvek.sourcelink.json
+H:\AsztaliAlk\0925\Jarmuvek\Jarmuvek\obj\Debug\net8.0\Jarmuvek.dll
+H:\AsztaliAlk\0925\Jarmuvek\Jarmuvek\obj\Debug\net8.0\refint\Jarmuvek.dll
+H:\AsztaliAlk\0925\Jarmuvek\Jarmuvek\obj\Debug\net8.0\Jarmuvek.pdb
+H:\AsztaliAlk\0925\Jarmuvek\Jarmuvek\obj\Debug\net8.0\Jarmuvek.genruntimeconfig.cache
+H:\AsztaliAlk\0925\Jarmuvek\Jarmuvek\obj\Debug\net8.0\ref\Jarmuvek.dll
