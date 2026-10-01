@@ -14,12 +14,12 @@ static class Dungeon
 
         // ===== A KÖRÖKHÖZ TARTOZÓ SZOBÁK: a megfelelő körben vedd ki a kommentjelet! =====
         // 1. kör:
-        // rooms.Add(MakeRoom("Troll bridge", MonsterFactory.Create(MonsterType.Troll)));
+        rooms.Add(MakeRoom("Troll bridge", MonsterFactory.Create(MonsterType.Troll)));
         // 3. kör:
-        // rooms.Add(MakeRoom("Storage room", new Item("elixir"), new Item("helmet")));
+        rooms.Add(MakeRoom("Storage room", new Item("elixir"), new Item("helmet")));
         // 4. kör:
-        // rooms.Add(MakeRoom("Spring cave", new Fountain()));
-        // rooms.Add(MakeRoom("Treasury", new Trap("spike"), new Chest(5, new Item("elixir"), new Item("helmet"))));
+        //rooms.Add(MakeRoom("Spring cave", new Fountain()));
+        //rooms.Add(MakeRoom("Treasury", new Trap("spike"), new Chest(5, new Item("elixir"), new Item("helmet"))));
         // 5. kör:
         // rooms.Add(MakeRoom("Bat cave", MonsterFactory.Create(MonsterType.Bat)));
         // rooms.Add(MakeRoom("Spider nest", MonsterFactory.Create(MonsterType.Spider)));

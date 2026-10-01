@@ -7,7 +7,8 @@ enum MonsterType
     Orc,
     Skeleton,
     Slime,
-    Dragon
+    Dragon,
+    Troll
 }
 
 // Egyetlen osztály az ÖSSZES szörnyfajtának.

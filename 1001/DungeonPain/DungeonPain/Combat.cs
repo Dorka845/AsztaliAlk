@@ -18,6 +18,28 @@ static class Combat
                 break;
             }
 
+            if (monster.Name == "Dragon")
+            {
+                if (monster.Hp * 100 / monster.MaxHp < 15)
+                {
+                    Console.WriteLine(monster.Name + " escapes! ");
+                    hero.Xp += MonsterInfo.GetXp(monster) / 2;
+                    hero.Fled++;
+                    return;
+                }
+            }
+
+            if (monster.Name == "Goblin")
+            {
+                if (monster.Hp * 100 / monster.MaxHp < 30)
+                {
+                    Console.WriteLine(monster.Name + " escapes! ");
+                    hero.Xp += MonsterInfo.GetXp(monster) / 2;
+                    hero.Fled++;
+                    return;
+                }
+            }
+
             MonsterAct(hero, monster);
         }
 
@@ -158,6 +180,17 @@ static class Combat
                     hero.Hp -= damage;
                     Console.WriteLine("    Dragon claws " + hero.Name + " for " + damage + " (HP " + hero.Hp + ")");
                 }
+                break;
+
+            case MonsterType.Troll:
+                damage = monster.Attack - hero.Defense;
+                hero.Hp -= damage;
+                Console.WriteLine("    Troll smashes " + hero.Name + " for " + damage + "! (HP: " + hero.Hp + ")");
+                if (monster.MaxHp - 2 >= monster.Hp)
+                {
+                    monster.Hp += 2;
+                }
+                Console.WriteLine("    The troll heals back 2HP (HP: " + monster.Hp + " )");
                 break;
         }
     }

@@ -40,6 +40,12 @@ static class MonsterFactory
                 m.Attack = 11;
                 m.Defense = 4;
                 break;
+            case MonsterType.Troll:
+                m.Name = "Troll";
+                m.MaxHp = 24;
+                m.Attack = 5;
+                m.Defense = 2;
+                break;
         }
 
         m.Hp = m.MaxHp;

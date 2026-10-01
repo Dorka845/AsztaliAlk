@@ -10,6 +10,8 @@ static class ItemLogic
             case "potion": return "Healing potion (+10 HP)";
             case "sword": return "Sword (+2 attack)";
             case "shield": return "Shield (+1 defense)";
+            case "elixir": return "Elixir (+10 HP, +1 attack)";
+            case "helmet": return "Helmet (+1 defense)";
             default: return "Unknown item";
         }
     }
@@ -30,6 +32,15 @@ static class ItemLogic
             case "shield":
                 hero.Defense += 1;
                 Console.WriteLine("    " + hero.Name + " raises the shield: defense " + hero.Defense);
+                break;
+            case "elixir":
+                hero.Hp = Math.Min(hero.MaxHp, hero.Hp + 10);
+                hero.Attack += 1;
+                Console.WriteLine("    " + hero.Name + " drinks the elixir: HP " + hero.Hp + "/" + hero.MaxHp + ", " + "attack " + hero.Defense);
+                break;
+            case "helmet":
+                hero.Defense += 1;
+                Console.WriteLine("    " + hero.Name + " puts on the helmet: defense " + hero.Defense);
                 break;
         }
     }

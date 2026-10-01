@@ -13,6 +13,7 @@ static class MonsterInfo
             case MonsterType.Skeleton: return 's';
             case MonsterType.Slime: return '~';
             case MonsterType.Dragon: return 'D';
+            case MonsterType.Troll: return 'T';
             default: return '?';
         }
     }
@@ -32,6 +33,8 @@ static class MonsterInfo
                 return "A gooey slime. Its acid corrodes armor.";
             case MonsterType.Dragon:
                 return "An ancient dragon. Breathes fire every third turn.";
+            case MonsterType.Troll:
+                return "An ugly troll. Hits the player.";
             default:
                 return "";
         }
@@ -47,6 +50,7 @@ static class MonsterInfo
             case MonsterType.Skeleton: return 8;
             case MonsterType.Slime: return 4;
             case MonsterType.Dragon: return 40;
+            case MonsterType.Troll: return 20;
             default: return 0;
         }
     }
@@ -59,7 +63,9 @@ static class MonsterInfo
             case MonsterType.Goblin: return new Item("potion");
             case MonsterType.Orc: return new Item("sword");
             case MonsterType.Skeleton: return new Item("shield");
-            case MonsterType.Dragon: return new Item("Potion");
+            case MonsterType.Slime: return new Item("elixir");
+            case MonsterType.Dragon: return new Item("potion");
+            case MonsterType.Troll: return new Item("shield");
             default: return null;
         }
     }
