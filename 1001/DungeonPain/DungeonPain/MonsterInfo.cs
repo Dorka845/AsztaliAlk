@@ -14,6 +14,9 @@ static class MonsterInfo
             case MonsterType.Slime: return '~';
             case MonsterType.Dragon: return 'D';
             case MonsterType.Troll: return 'T';
+            case MonsterType.Bat: return 'b';
+            case MonsterType.Spider: return 'S';
+            case MonsterType.Wyvern: return 'W';
             default: return '?';
         }
     }
@@ -35,6 +38,12 @@ static class MonsterInfo
                 return "An ancient dragon. Breathes fire every third turn.";
             case MonsterType.Troll:
                 return "An ugly troll. Hits the player.";
+            case MonsterType.Bat:
+                return "A fluttering bat. Hard to hit in melee.";
+            case MonsterType.Spider:
+                return "A venomous spider. Its bite poisons.";
+            case MonsterType.Wyvern:
+                return "A flying wyvern with a poisonous sting.";
             default:
                 return "";
         }
@@ -51,6 +60,9 @@ static class MonsterInfo
             case MonsterType.Slime: return 4;
             case MonsterType.Dragon: return 40;
             case MonsterType.Troll: return 20;
+            case MonsterType.Bat: return 6;
+            case MonsterType.Spider: return 9;
+            case MonsterType.Wyvern: return 30;
             default: return 0;
         }
     }
@@ -66,6 +78,9 @@ static class MonsterInfo
             case MonsterType.Slime: return new Item("elixir");
             case MonsterType.Dragon: return new Item("potion");
             case MonsterType.Troll: return new Item("shield");
+            case MonsterType.Bat: return null;
+            case MonsterType.Spider: return new Item("potion");
+            case MonsterType.Wyvern: return new Item("elixir");
             default: return null;
         }
     }

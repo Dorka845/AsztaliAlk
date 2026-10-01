@@ -27,4 +27,5 @@ class Hero
     // Csak egyes kalandortípusoknál van értelme:
     public int Mana;          // csak a Mage-nél
     public int AttackCount;   // csak a Thiefnél: számolja a támadásait a hátbaszúráshoz
+    public int PoisonTurns;   // hány körig mérgezett még a hős
 }

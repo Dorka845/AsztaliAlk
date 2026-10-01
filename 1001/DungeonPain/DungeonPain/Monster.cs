@@ -8,7 +8,10 @@ enum MonsterType
     Skeleton,
     Slime,
     Dragon,
-    Troll
+    Troll,
+    Bat,
+    Spider,
+    Wyvern
 }
 
 // Egyetlen osztály az ÖSSZES szörnyfajtának.
@@ -26,4 +29,6 @@ class Monster
     public int StolenGold;   // csak a Goblinnál: az ellopott arany
     public bool IsEnraged;   // csak az Orcnál: dühöngő állapot
     public int TurnCounter;  // csak a Sárkánynál: számolja a köreit a tűzlehelethez
+    public bool IsFlying;    // csak a Batnél és a Wyvernnél
+    public bool IsPoisonous; // csak a Spidernél és a Wyvernnél
 }

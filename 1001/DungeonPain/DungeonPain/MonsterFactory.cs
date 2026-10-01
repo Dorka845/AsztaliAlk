@@ -46,6 +46,28 @@ static class MonsterFactory
                 m.Attack = 5;
                 m.Defense = 2;
                 break;
+            case MonsterType.Bat:
+                m.Name = "Bat";
+                m.MaxHp = 10;
+                m.Attack = 3;
+                m.Defense = 0;
+                m.IsFlying = true;
+                break;
+            case MonsterType.Spider:
+                m.Name = "Spider";
+                m.MaxHp = 16;
+                m.Attack = 4;
+                m.Defense = 1;
+                m.IsPoisonous = true;
+                break;
+            case MonsterType.Wyvern:
+                m.Name = "Wyvern";
+                m.MaxHp = 30;
+                m.Attack = 9;
+                m.Defense = 3;
+                m.IsFlying = true;
+                m.IsPoisonous = true;
+                break;
         }
 
         m.Hp = m.MaxHp;

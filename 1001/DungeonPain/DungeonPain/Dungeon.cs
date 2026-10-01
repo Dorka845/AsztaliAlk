@@ -18,12 +18,12 @@ static class Dungeon
         // 3. kör:
         rooms.Add(MakeRoom("Storage room", new Item("elixir"), new Item("helmet")));
         // 4. kör:
-        //rooms.Add(MakeRoom("Spring cave", new Fountain()));
-        //rooms.Add(MakeRoom("Treasury", new Trap("spike"), new Chest(5, new Item("elixir"), new Item("helmet"))));
+        rooms.Add(MakeRoom("Spring cave", new Fountain()));
+        rooms.Add(MakeRoom("Treasury", new Trap("spike"), new Chest(5, new Item("elixir"), new Item("helmet"))));
         // 5. kör:
-        // rooms.Add(MakeRoom("Bat cave", MonsterFactory.Create(MonsterType.Bat)));
-        // rooms.Add(MakeRoom("Spider nest", MonsterFactory.Create(MonsterType.Spider)));
-        // rooms.Add(MakeRoom("Wyvern roost", MonsterFactory.Create(MonsterType.Wyvern)));
+        rooms.Add(MakeRoom("Bat cave", MonsterFactory.Create(MonsterType.Bat)));
+        rooms.Add(MakeRoom("Spider nest", MonsterFactory.Create(MonsterType.Spider)));
+        rooms.Add(MakeRoom("Wyvern roost", MonsterFactory.Create(MonsterType.Wyvern)));
         // =================================================================================
 
         rooms.Add(MakeRoom("Dragon's lair", MonsterFactory.Create(MonsterType.Dragon)));
@@ -81,6 +81,25 @@ static class Dungeon
                             hero.Hp -= 5;
                             Console.WriteLine("  A fire trap! " + hero.Name + " takes 5 damage (HP " + hero.Hp + ")");
                             break;
+                    }
+                }
+
+                else if (thing is Fountain)
+                {
+                    Fountain fountain = (Fountain)thing;
+                    hero.Hp = Math.Min(hero.MaxHp, hero.Hp + fountain.HealAmount);
+                    Console.WriteLine("  A healing fountain! " + hero.Name + " drinks: HP " + hero.Hp + "/" + hero.MaxHp);
+                }
+                else if (thing is Chest)
+                {
+                    Chest chest = (Chest)thing;
+                    hero.Gold += chest.Gold;
+                    Console.WriteLine("  A chest! " + hero.Name + " finds " + chest.Gold + " gold (gold " + hero.Gold + ")");
+                    foreach (Item item in chest.Items)
+                    {
+                        hero.Inventory.Add(item);
+                        Console.WriteLine("  Found in chest: " + ItemLogic.Describe(item));
+                        ItemLogic.Use(hero, item);
                     }
                 }
             }

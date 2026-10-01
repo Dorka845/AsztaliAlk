@@ -9,6 +9,18 @@ static class Combat
 
         while (hero.Hp > 0 && monster.Hp > 0)
         {
+            // Méreg: a hős támadási köre elején
+            if (hero.PoisonTurns > 0)
+            {
+                hero.Hp -= 2;
+                hero.PoisonTurns--;
+                Console.WriteLine("    Poison burns " + hero.Name + " for 2 (HP " + hero.Hp + ")");
+                if (hero.Hp <= 0)
+                {
+                    break;
+                }
+            }
+
             int damage = HeroAttack(hero, monster);
             monster.Hp -= damage;
             Console.WriteLine("    " + hero.Name + " hits " + monster.Name + " for " + damage + " (" + Math.Max(0, monster.Hp) + " HP left)");
@@ -25,6 +37,19 @@ static class Combat
                     Console.WriteLine(monster.Name + " escapes! ");
                     hero.Xp += MonsterInfo.GetXp(monster) / 2;
                     hero.Fled++;
+                    hero.PoisonTurns = 0;
+                    return;
+                }
+            }
+
+            if (monster.Name == "Bat")
+            {
+                if (monster.Hp * 100 / monster.MaxHp < 40)
+                {
+                    Console.WriteLine(monster.Name + " escapes! ");
+                    hero.Xp += MonsterInfo.GetXp(monster) / 2;
+                    hero.Fled++;
+                    hero.PoisonTurns = 0;
                     return;
                 }
             }
@@ -50,6 +75,7 @@ static class Combat
         }
 
         // Győzelem
+        hero.PoisonTurns = 0;
         hero.Defeated++;
         hero.Xp += MonsterInfo.GetXp(monster);
         hero.Gold += monster.StolenGold;
@@ -81,6 +107,12 @@ static class Combat
                 {
                     damage += 2;   // a csontok összetörnek
                 }
+
+                if (monster.IsFlying)
+                {
+                    damage /= 2;   // repülőt nehéz eltalálni
+                }
+
                 break;
 
             case HeroClass.Mage:
@@ -98,7 +130,7 @@ static class Combat
             case HeroClass.Thief:
                 hero.AttackCount++;
                 damage = hero.Attack - monster.Defense;
-                if (hero.AttackCount % 2 == 0)
+                if (hero.AttackCount % 2 == 0 && !monster.IsFlying)
                 {
                     damage *= 2;   // hátbaszúrás
                 }
@@ -192,6 +224,32 @@ static class Combat
                 }
                 Console.WriteLine("    The troll heals back 2HP (HP: " + monster.Hp + " )");
                 break;
+
+            case MonsterType.Bat:
+                damage = monster.Attack - hero.Defense;
+                if (damage < 1) damage = 1;
+                hero.Hp -= damage;
+                Console.WriteLine("    Bat bites " + hero.Name + " for " + damage + " (HP " + hero.Hp + ")");
+                break;
+
+            case MonsterType.Spider:
+                damage = monster.Attack - hero.Defense;
+                if (damage < 1) damage = 1;
+                hero.Hp -= damage;
+                Console.WriteLine("    Spider bites " + hero.Name + " for " + damage + " (HP " + hero.Hp + ")");
+                break;
+
+            case MonsterType.Wyvern:
+                damage = monster.Attack - hero.Defense;
+                if (damage < 1) damage = 1;
+                hero.Hp -= damage;
+                Console.WriteLine("    Wyvern stings " + hero.Name + " for " + damage + " (HP " + hero.Hp + ")");
+                break;
+        }
+        if (monster.IsPoisonous)
+        {
+            hero.PoisonTurns = 3;
+            Console.WriteLine("    " + hero.Name + " is poisoned!");
         }
     }
 }
