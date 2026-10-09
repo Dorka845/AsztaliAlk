@@ -1,0 +1,15 @@
+H:\AsztaliAlk\1009\Mediatar\Mediatar\bin\Debug\net8.0\Mediatar.exe
+H:\AsztaliAlk\1009\Mediatar\Mediatar\bin\Debug\net8.0\Mediatar.deps.json
+H:\AsztaliAlk\1009\Mediatar\Mediatar\bin\Debug\net8.0\Mediatar.runtimeconfig.json
+H:\AsztaliAlk\1009\Mediatar\Mediatar\bin\Debug\net8.0\Mediatar.dll
+H:\AsztaliAlk\1009\Mediatar\Mediatar\bin\Debug\net8.0\Mediatar.pdb
+H:\AsztaliAlk\1009\Mediatar\Mediatar\obj\Debug\net8.0\Mediatar.GeneratedMSBuildEditorConfig.editorconfig
+H:\AsztaliAlk\1009\Mediatar\Mediatar\obj\Debug\net8.0\Mediatar.AssemblyInfoInputs.cache
+H:\AsztaliAlk\1009\Mediatar\Mediatar\obj\Debug\net8.0\Mediatar.AssemblyInfo.cs
+H:\AsztaliAlk\1009\Mediatar\Mediatar\obj\Debug\net8.0\Mediatar.csproj.CoreCompileInputs.cache
+H:\AsztaliAlk\1009\Mediatar\Mediatar\obj\Debug\net8.0\Mediatar.sourcelink.json
+H:\AsztaliAlk\1009\Mediatar\Mediatar\obj\Debug\net8.0\Mediatar.dll
+H:\AsztaliAlk\1009\Mediatar\Mediatar\obj\Debug\net8.0\refint\Mediatar.dll
+H:\AsztaliAlk\1009\Mediatar\Mediatar\obj\Debug\net8.0\Mediatar.pdb
+H:\AsztaliAlk\1009\Mediatar\Mediatar\obj\Debug\net8.0\Mediatar.genruntimeconfig.cache
+H:\AsztaliAlk\1009\Mediatar\Mediatar\obj\Debug\net8.0\ref\Mediatar.dll
